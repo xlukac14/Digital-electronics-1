@@ -14,6 +14,8 @@
 
 ## Links
 
+[Google](https://www.google.com)
+[BUT](https://www.vutbr.cz/)
 
 ## VHDL code
 
