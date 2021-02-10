@@ -1,6 +1,6 @@
 # Digital-electronics-1
 
-### Testing/Learning
+### Testing/Learning Git hub
 
 **This is bold text** And
 *This text is italicized*
