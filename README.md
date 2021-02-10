@@ -6,7 +6,9 @@
 *This text is italicized*
 
 1. Exercise NO.1
-⋅⋅1. Ordered sub-list
+   - First Task
+   - Second Task
+   - Third Task
 2. Exercise NO.2
 3. Exercise NO.2
 
