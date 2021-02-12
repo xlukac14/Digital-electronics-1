@@ -2,9 +2,9 @@
 
 ## Info about student
 
-Name & Surn.: Vladimír Lukáč
-ID: 221340
-Std. Group: EKT-02
+- Name & Surn.: Vladimír Lukáč
+- ID: 221340
+- Std. Group: EKT-02
 
 ## Lab. Assignments
 
