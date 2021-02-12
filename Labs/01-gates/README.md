@@ -48,7 +48,7 @@ end architecture dataflow;
 
 ### Screenshot with simulated time waveforms
 
-![De Morgan's laws simulation](Images/DMlaws.png)
+![De Morgan's laws simulation](https://github.com/xlukac14/Digital-electronics-1/tree/main/Labs/01-gates/images/DMlaws.png)
 
 ### EDA Playground Link
 
@@ -95,8 +95,8 @@ end architecture dataflow;
 
 ### Screenshots with simulated time waveforms
 
-![Distributive laws simulation](Images/Dlaws.png)
-![Boolean's postulates simulation](Images/Bpostulates.png)
+![Distributive laws simulation](https://github.com/xlukac14/Digital-electronics-1/tree/main/Labs/01-gates/images/Dlaws.png)
+![Boolean's postulates simulation](https://github.com/xlukac14/Digital-electronics-1/tree/main/Labs/01-gates/images/Bpostulates.png)
 
 
 ### EDA Playground Link
