@@ -2,7 +2,7 @@
 
 ## My GitHub repository
 
-[Digital-electronics-1_xlukac14](https://github.com/xlukac14/Digital-electronics-1)
+https://github.com/xlukac14/Digital-electronics-1
 
 ## Task 1: Verification of De Morgan's laws
 
@@ -48,7 +48,7 @@ end architecture dataflow;
 
 ### Screenshot with simulated time waveforms
 
-![De Morgan's laws simulation](Images/Task1 De Morgan's laws.png)
+![De Morgan's laws simulation](Images/DMlaws.png)
 
 ### EDA Playground Link
 
@@ -96,8 +96,8 @@ end architecture dataflow;
 
 ### Screenshots with simulated time waveforms
 
-![Distributive laws simulation](Images/Task3 Distributive laws.png)
-![Boolean's postulates simulation](Images/Task3 Boolean's postulates.png)
+![Distributive laws simulation](Images/Dlaws.png)
+![Boolean's postulates simulation](Images/Bpostulates.png)
 
 
 ### EDA Playground Link
