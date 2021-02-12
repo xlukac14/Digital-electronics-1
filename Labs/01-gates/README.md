@@ -28,7 +28,7 @@ entity gates is
     	
         a_i     : in  std_logic;         
         b_i     : in  std_logic;         
-        c_i	    : in  std_logic;			
+        c_i	: in  std_logic;			
         f_o     : out std_logic;        
         fnand_o : out std_logic;         
         fnor_o  : out std_logic
@@ -64,9 +64,9 @@ use ieee.std_logic_1164.all;
 
 entity gates is
     port(
-        x_i			: in  std_logic;
-        y_i			: in  std_logic;
-        z_i			: in  std_logic;
+        x_i		: in  std_logic;
+        y_i		: in  std_logic;
+        z_i		: in  std_logic;
         fbp1_o		: out std_logic;	--boolean1
         fbp2_o		: out std_logic;	--boolean2
         fbp3_o		: out std_logic;	--boolean3
