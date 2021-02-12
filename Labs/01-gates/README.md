@@ -48,7 +48,7 @@ end architecture dataflow;
 
 ### Screenshot with simulated time waveforms
 
-![De Morgan's laws simulation](https://github.com/xlukac14/Digital-electronics-1/tree/main/Labs/01-gates/images/DMlaws.png  "De Morgan's laws")
+![De Morgan's laws simulation](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/01-gates/images/DMlaws.PNG)
 
 ### EDA Playground Link
 
@@ -95,14 +95,12 @@ end architecture dataflow;
 
 ### Screenshots with simulated time waveforms
 
-![Distributive laws simulation][logo]
-
-[logo]: https://github.com/xlukac14/Digital-electronics-1/tree/main/Labs/01-gates/images/Dlaws.png
-![Boolean's postulates simulation](https://github.com/xlukac14/Digital-electronics-1/tree/main/Labs/01-gates/images/Bpostulates.png)
+![Distributive laws simulation](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/01-gates/images/Dlaws.PNG)
+![Boolean's postulates simulation](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/01-gates/images/Bpostulates.PNG)
 
 
 ### EDA Playground Link
 
 [Distributive laws + Boolean's postulates](https://www.edaplayground.com/x/srNS)
 
-
+EKT-02 221340 Vladimír Lukáč 
