@@ -1,5 +1,15 @@
 # Digital-electronics-1
 
+## Info about student
+
+Name & Surn.: Vladimír Lukáč
+ID: 221340
+Std. Group: EKT-02
+
+## Lab. Assignments
+
+01-gates: 
+
 ## Testing/Learning Git hub
 
 **This is bold text** And
@@ -17,12 +27,3 @@
 [Google](https://www.google.com)
 [BUT](https://www.vutbr.cz/)
 
-## VHDL code
-
-```vhdl
-\begin{align*}
-    f(c,b,a) =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\
-    f(c,b,a)_{\textup{NAND}} =&\\
-    f(c,b,a)_{\textup{NOR}} =&\\
-\end{align*}
-```
