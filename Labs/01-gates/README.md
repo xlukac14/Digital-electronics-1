@@ -93,7 +93,6 @@ begin
 end architecture dataflow;
 ```
 
-
 ### Screenshots with simulated time waveforms
 
 ![Distributive laws simulation](Images/Dlaws.png)
