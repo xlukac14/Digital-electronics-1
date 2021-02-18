@@ -42,4 +42,18 @@ https://github.com/xlukac14/Digital-electronics-1
 ![B>A](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/02-logic/Images/BgreaterA2.png "B>A")
 
 ### Equations of simplified SoP (greater than) and PoS (less than) functions
+	       __         __      __ __
+B<A (PoS)-> B1*A1 + B1*B0*A0 + B0*A1*A0
+             __      __              __ __   __
+B>A (SoP)-> (B1+A1)*(B0+A1)*(A0+A1)*(B1+B0)*(B1+A0)
+
+### EDA Playground Link
+
+[A 2-bit comparator](https://www.edaplayground.com/x/cerU)
+
+## Task 3: A 4-bit binary comparator
+
+
+
+
 
