@@ -25,4 +25,21 @@ https://github.com/xlukac14/Digital-electronics-1
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-## Task 2: 
+## Task 2: A 2-bit comparator
+
+### Karnaugh maps
+
+#### B<A
+
+![B<A](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/02-logic/Images/BlessA2.png "B<A")
+
+#### B=A
+
+![B=A](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/02-logic/Images/BequalsA2.png "B=A")
+
+#### B>A
+
+![B>A](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/02-logic/Images/BgreaterA2.png "B>A")
+
+### Equations of simplified SoP (greater than) and PoS (less than) functions
+
