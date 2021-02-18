@@ -43,9 +43,9 @@ https://github.com/xlukac14/Digital-electronics-1
 
 ### Equations of simplified SoP (greater than) and PoS (less than) functions
 
-B<A (PoS)-> NOT A1*B1 + NOT A0*B1*B0 + NOT(A1*A0)*B0
+B<A (PoS)-> NOT A1 * B1 + NOT A0 * B1 * B0 + NOT A1 * NOT A0 * B0
 
-B>A (SoP) -> (NOT B1 + A1)*(NOT B0 + A1)*(A0 + A1)*(NOT B1 + NOT B0)*(NOT B1 + A0)
+B>A (SoP) -> (NOT B1 + A1) * (NOT B0 + A1) * (A0 + A1) * (NOT B1 + NOT B0) * (NOT B1 + A0)
 
 ### EDA Playground Link
 
