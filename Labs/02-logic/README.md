@@ -55,15 +55,15 @@ B>A (SoP) -> (NOT B1 + A1) * (NOT B0 + A1) * (A0 + A1) * (NOT B1 + NOT B0) * (NO
 
 ### Listing of VHDL architecture from design file
 
-```ruby
+```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
 
 entity comparator_2bit is
     port(
         a_i           : in  std_logic_vector(4 - 1 downto 0);
-		b_i           : in  std_logic_vector(4 - 1 downto 0);
-		B_greater_A_o : out std_logic;
+	b_i           : in  std_logic_vector(4 - 1 downto 0);
+	B_greater_A_o : out std_logic;
         B_equals_A_o  : out std_logic;
         B_less_A_o    : out std_logic       
     );
