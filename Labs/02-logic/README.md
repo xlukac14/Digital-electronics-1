@@ -59,7 +59,7 @@ https://www.edaplayground.com/x/cerU
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity comparator_2bit is
+entity comparator_4bit is
     port(
         a_i           : in  std_logic_vector(4 - 1 downto 0);
 	b_i           : in  std_logic_vector(4 - 1 downto 0);
@@ -67,12 +67,12 @@ entity comparator_2bit is
         B_equals_A_o  : out std_logic;
         B_less_A_o    : out std_logic       
     );
-end entity comparator_2bit;
+end entity comparator_4bit;
 
-architecture Behavioral of comparator_2bit is
+architecture Behavioral of comparator_4bit is
 begin
 
-    B_greater_A_o  <= '1' when (b_i > a_i) else '0';
+        B_greater_A_o  <= '1' when (b_i > a_i) else '0';
 	B_equals_A_o   <= '1' when (b_i = a_i) else '0';
 	B_less_A_o     <= '1' when (b_i < a_i) else '0';
     
@@ -85,22 +85,22 @@ end architecture Behavioral;
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity tb_comparator_2bit is
+entity tb_comparator_4bit is
     
-end entity tb_comparator_2bit;
+end entity tb_comparator_4bit;
 
 
-architecture testbench of tb_comparator_2bit is
+architecture testbench of tb_comparator_4bit is
 
-    signal s_a       : std_logic_vector(4 - 1 downto 0);
-    signal s_b       : std_logic_vector(4 - 1 downto 0);
+    signal s_a           : std_logic_vector(4 - 1 downto 0);
+    signal s_b           : std_logic_vector(4 - 1 downto 0);
     signal s_B_greater_A : std_logic;
     signal s_B_equals_A  : std_logic;
     signal s_B_less_A    : std_logic;
 
 begin
     
-    uut_comparator_2bit : entity work.comparator_2bit
+    uut_comparator_4bit : entity work.comparator_4bit
         port map(
             a_i           => s_a,
             b_i           => s_b,
@@ -165,7 +165,7 @@ end architecture testbench;
 
 ### Listing of simulator console output
 
-```vhdl
+```
 [2021-02-20 04:43:09 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_2bit && ghdl -r  tb_comparator_2bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; s/^H/1/g; s/^L/0/g' dump.vcd 
 analyze design.vhd
 analyze testbench.vhd
