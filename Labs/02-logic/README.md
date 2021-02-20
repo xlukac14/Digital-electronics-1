@@ -49,9 +49,37 @@ B>A (SoP) -> (NOT B1 + A1) * (NOT B0 + A1) * (A0 + A1) * (NOT B1 + NOT B0) * (NO
 
 ### EDA Playground Link
 
-[A 2-bit comparator](https://www.edaplayground.com/x/cerU)
+(https://www.edaplayground.com/x/cerU)
 
 ## Task 3: A 4-bit binary comparator
+
+### Listing of VHDL architecture from design file
+
+```ruby
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity comparator_2bit is
+    port(
+        a_i           : in  std_logic_vector(4 - 1 downto 0);
+		b_i           : in  std_logic_vector(4 - 1 downto 0);
+		B_greater_A_o : out std_logic;
+        B_equals_A_o  : out std_logic;
+        B_less_A_o    : out std_logic       
+    );
+end entity comparator_2bit;
+
+architecture Behavioral of comparator_2bit is
+begin
+
+    B_greater_A_o  <= '1' when (b_i > a_i) else '0';
+	B_equals_A_o   <= '1' when (b_i = a_i) else '0';
+	B_less_A_o     <= '1' when (b_i < a_i) else '0';
+    
+end architecture Behavioral;
+```
+
+### Listing of VHDL stimulus process from testbench file
 
 
 
