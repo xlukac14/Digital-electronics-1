@@ -120,6 +120,10 @@ begin
 end architecture testbench;
 ```
 
+## Screenshot with simulated time waveforms
+
+![03-vivado](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/03-vivado/images/de1_pc3_output_mltplx.PNG)
+
 ## Task 3: A Vivado tutorial
 
-link: 
+link: https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/03-vivado/Vivado_maual_Lukac_221340.pdf
