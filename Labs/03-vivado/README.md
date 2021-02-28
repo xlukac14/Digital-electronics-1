@@ -5,8 +5,7 @@
 https://github.com/xlukac14/Digital-electronics-1
 
 ## Task 1: Table with connection of 16 slide switches and 16 LEDs on Nexys board
-
-| :-: | **SW-PIN** | **Resistor1** | **Resisitor2** | **LED** |**LED-PIN**|
+| **SW-PIN** | **Resistor1** | **Resisitor2** | **LED** |**LED-PIN**|
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | **SW0** | J15 | R35 | R33 | LD0 | H17 |
 | **SW1** | L16 | 0 0 | 0 1 | 0 | LD1 | K15 |
