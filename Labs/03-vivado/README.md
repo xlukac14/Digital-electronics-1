@@ -5,24 +5,25 @@
 https://github.com/xlukac14/Digital-electronics-1
 
 ## Task 1: Table with connection of 16 slide switches and 16 LEDs on Nexys board
-| **SW-PIN** | **Resistor1** | **Resisitor2** | **LED** |**LED-PIN**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+
+| **SW** | **SW-PIN** | **Resistor1** | **Resisitor2** | **LED** | **LED-PIN** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | **SW0** | J15 | R35 | R33 | LD0 | H17 |
-| **SW1** | L16 | 0 0 | 0 1 | 0 | LD1 | K15 |
-| **SW2** | M13 | 0 0 | 1 0 | 0 | LD2 | J13|
-| **SW3** | R15 | 0 0 | 1 1 | 0 | LD3 | N18 |
-| **SW4** | R17 | 0 1 | 0 0 | 1 | LD4 | R18 |
-| **SW5** | T18 | 0 1 | 0 1 | 0 | LD5 | V17 |
-| **SW6** | U18 | 0 1 | 1 0 | 0 | LD6 | U17 |
-| **SW7** | R13 | 0 1 | 1 1 | 0 | LD7 | U16 |
-| **SW8** | T8 | 1 0 | 0 0 | 1 | LD8 | V16 |
-| **SW9** | U8 | 1 0 | 0 1 | 1 | LD9 | T15 |
-| **SW10** | R16 | 1 0 | 1 0 | 0 | LD10 | U14 |
-| **SW11** | T13 | 1 0 | 1 1 | 0 | LD11 | T16 |
-| **SW12** | H6 | 1 1 | 0 0 | 1 | LD12 | V15 |
-| **SW13** | U12 | 1 1 | 0 1 | 1 | LD13 | V14 |
-| **SW14** | U11 | 1 1 | 1 0 | 1 | LD14 | V12 |
-| **SW15** | V10 | 1 1 | 1 1 | 0 | LD15 | V11 |
+| **SW1** | L16 | R37 | R34 | LD1 | K15 |
+| **SW2** | M13 | R38 | R36 | LD2 | J13|
+| **SW3** | R15 | R40 | R39 | LD3 | N18 |
+| **SW4** | R17 | R42 | R41 | LD4 | R18 |
+| **SW5** | T18 | R43 | R44 | LD5 | V17 |
+| **SW6** | U18 | R46 | R47 | LD6 | U17 |
+| **SW7** | R13 | R48 | R50 | LD7 | U16 |
+| **SW8** | T8 | R56 | R52 | LD8 | V16 |
+| **SW9** | U8 | R58 | R54 | LD9 | T15 |
+| **SW10** | R16 | R64 | R57 | LD10 | U14 |
+| **SW11** | T13 | R66 | R65 | LD11 | T16 |
+| **SW12** | H6 | R68 | R67 | LD12 | V15 |
+| **SW13** | U12 | R69 | R70 | LD13 | V14 |
+| **SW14** | U11 | R71 | R72 | LD14 | V12 |
+| **SW15** | V10 | R73 | R74 | LD15 | V11 |
 
 ## Task 2: Two-bit wide 4-to-1 multiplexer
 
