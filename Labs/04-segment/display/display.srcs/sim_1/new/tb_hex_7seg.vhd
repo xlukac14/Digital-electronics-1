@@ -13,7 +13,7 @@ architecture testbench of tb_hex_7seg is
 
 begin
     
-    uut_comparator_2bit : entity work.hex_7seg
+    uut_hex_7seg : entity work.hex_7seg
         port map(
             hex_i   =>  S_hex,
             seg_o   =>  s_seg
@@ -25,22 +25,22 @@ begin
       
         report "Stimulus process started" severity note;
 
-        s_hex <=  "0000"; wait for 100ns;
-        s_hex <=  "0001"; wait for 100ns;
-        s_hex <=  "0010"; wait for 100ns;
-        s_hex <=  "0011"; wait for 100ns;
-        s_hex <=  "0100"; wait for 100ns;
-        s_hex <=  "0101"; wait for 100ns;
-        s_hex <=  "0110"; wait for 100ns;
-        s_hex <=  "0111"; wait for 100ns;
-        s_hex <=  "1000"; wait for 100ns;
-        s_hex <=  "1001"; wait for 100ns;
-        s_hex <=  "1010"; wait for 100ns;
-        s_hex <=  "1011"; wait for 100ns;
-        s_hex <=  "1100"; wait for 100ns;
-        s_hex <=  "1101"; wait for 100ns;
-        s_hex <=  "1110"; wait for 100ns;
-        s_hex <=  "1111"; wait for 100ns;
+        s_hex <=  "0000"; wait for 62.5ns;
+        s_hex <=  "0001"; wait for 62.5ns;
+        s_hex <=  "0010"; wait for 62.5ns;
+        s_hex <=  "0011"; wait for 62.5ns;
+        s_hex <=  "0100"; wait for 62.5ns;
+        s_hex <=  "0101"; wait for 62.5ns;
+        s_hex <=  "0110"; wait for 62.5ns;
+        s_hex <=  "0111"; wait for 62.5ns;
+        s_hex <=  "1000"; wait for 62.5ns;
+        s_hex <=  "1001"; wait for 62.5ns;
+        s_hex <=  "1010"; wait for 62.5ns;
+        s_hex <=  "1011"; wait for 62.5ns;
+        s_hex <=  "1100"; wait for 62.5ns;
+        s_hex <=  "1101"; wait for 62.5ns;
+        s_hex <=  "1110"; wait for 62.5ns;
+        s_hex <=  "1111"; wait for 62.5ns;
         
         report "Stimulus process finished" severity note;
         wait;
