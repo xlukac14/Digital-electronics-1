@@ -24,7 +24,8 @@ begin
     begin
       
         report "Stimulus process started" severity note;
-
+        -- max. length -> 1000ns
+        -- 1000ns/16 = 62.5ns
         s_hex <=  "0000"; wait for 62.5ns;
         s_hex <=  "0001"; wait for 62.5ns;
         s_hex <=  "0010"; wait for 62.5ns;
