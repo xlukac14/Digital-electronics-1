@@ -2,8 +2,8 @@
 # Webtalk v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu Mar  4 20:54:34 2021
-# Process ID: 16856
+# Start of session at: Sat Mar  6 11:30:58 2021
+# Process ID: 9132
 # Current directory: D:/Documents/lukac/Digital-electronics-1/Labs/04-segment/display/display.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source D:/Documents/lukac/Digital-electronics-1/Labs/04-segment/display/display.sim/sim_1/behav/xsim/xsim.dir/tb_hex_7seg_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: D:/Documents/lukac/Digital-electronics-1/Labs/04-segment/display/display.sim/sim_1/behav/xsim/webtalk.log

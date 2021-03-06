@@ -1,4 +1,4 @@
-# Lab 03-Vivado
+# Lab 04-Segment
 
 ## My GitHub repository
 
@@ -133,7 +133,7 @@ begin
 
 ### Screenshot with simulated time waveforms
 
-add screenshot here...
+![04-segment](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/04-segment/images/04-7segment_output.PNG)
 
 ### Listing of VHDL code - 7-segment module instantiation
 
@@ -155,12 +155,55 @@ add screenshot here...
 
 ### Truth table for LEDs(7:4)
 
-add table here
+| **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0000 | 1 | 0 | 0 | 0 |
+| 1 | 0001 | 0 | 0 | 1 | 1 |
+| 2 | 0010 | 0 | 0 | 0 | 1 |
+| 3 | 0011 | 0 | 0 | 1 | 0 |
+| 4 | 0100 | 0 | 0 | 0 | 1 |
+| 5 | 0101 | 0 | 0 | 1 | 0 |
+| 6 | 0110 | 0 | 0 | 0 | 0 |
+| 7 | 0111 | 0 | 0 | 1 | 0 |
+| 8 | 1000 | 0 | 0 | 0 | 1 |
+| 9 | 1001 | 0 | 0 | 1 | 0 |
+| A | 1010 | 0 | 1 | 0 | 0 |
+| b | 1011 | 0 | 1 | 1 | 0 |
+| C | 1100 | 0 | 1 | 0 | 0 |
+| d | 1101 | 0 | 1 | 1 | 0 |
+| E | 1110 | 0 | 1 | 0 | 0 |
+| F | 1111 | 0 | 1 | 1 | 0 |
 
 ### Listing of VHDL code for LEDs(7:4)
 
-add code here
+```vhdl
+    AN <= b"1111_0111";
+    LED(4 - 1 downto 0) <= SW;
+
+    -- LED(7:4) indicators
+    -- Turn LED(4) on if input value is equal to 0, ie "0000"
+    LED(4) <= '1' when SW >= "0000";
+    
+    -- Turn LED(5) on if input value is greater than "1001", ie 9
+    LED(5) <= '1' when SW >= "1001";
+    
+    -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
+    LED(6) <= '1' when SW = "0001" else
+              '1' when SW = "0011" else
+              '1' when SW = "0101" else
+              '1' when SW = "0111" else
+              '1' when SW = "1001" else
+              '1' when SW = "1011" else
+              '1' when SW = "1101" else
+              '1' when SW = "1111";
+    
+    -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
+    LED(7) <= '1' when SW = "0001" else
+              '1' when SW = "0010" else
+              '1' when SW = "0100" else
+              '1' when SW = "1000";
+```
 
 ### Screenshot with simulated time waveforms
 
-add screenshot here
+![04-segment]()
