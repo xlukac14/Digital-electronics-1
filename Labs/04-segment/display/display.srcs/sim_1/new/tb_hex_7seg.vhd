@@ -15,7 +15,7 @@ begin
     
     uut_hex_7seg : entity work.hex_7seg
         port map(
-            hex_i   =>  S_hex,
+            hex_i   =>  s_hex,
             seg_o   =>  s_seg
         );
 
