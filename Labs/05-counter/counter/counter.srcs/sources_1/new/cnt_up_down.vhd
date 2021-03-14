@@ -53,10 +53,18 @@ begin
             elsif (en_i = '1') then       -- Test if counter is enabled
 
 
-                -- TEST COUNTER DIRECTION HERE
-
+                -- TEST COUNTER DIRECTION HERE/ enable treba implementovat...
+                -- pozriet skripta..., ako je en_i = '0', tak cnt_o <= s_cnt_local co znamena ze by sa nemal menit a ostane tam iba s_cnt_local
+                -- iba tieto 3 dokoncit
+                -- pre test bench nic neimplementovat... asi
 
                 s_cnt_local <= s_cnt_local + 1;
+                
+            -- elsif (cnt_up_i = '0') then
+                -- s_cnt_local <= s_cnt_local -1 
+                
+            -- elsif (cnt_up_i = '1') then
+                -- s_cnt_local <= s_cnt_local +1; -40-ta minuta vo videu...
 
 
             end if;

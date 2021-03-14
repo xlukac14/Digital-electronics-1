@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Mar 14 09:36:27 2021
+# Process ID: 16076
+# Current directory: D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15800 D:\Documents\lukac\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
+# Log file: D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/vivado.log
+# Journal file: D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/counter.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/counter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 992.906 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 14 12:18:55 2021...
