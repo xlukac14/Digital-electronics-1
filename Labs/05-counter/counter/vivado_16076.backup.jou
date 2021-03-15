@@ -2,10 +2,10 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon Mar 15 20:05:32 2021
-# Process ID: 9612
+# Start of session at: Sun Mar 14 09:36:27 2021
+# Process ID: 16076
 # Current directory: D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2008 D:\Documents\lukac\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15800 D:\Documents\lukac\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
 # Log file: D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/vivado.log
 # Journal file: D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter\vivado.jou
 #-----------------------------------------------------------
