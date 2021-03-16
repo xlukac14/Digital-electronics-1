@@ -94,7 +94,7 @@
 
 ### Screenshot with simulated time waveforms
 
-![05-counter-task2]()
+![05-counter-task2](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/05-counter/Images/05-Task2_screenshot.PNG)
 
 ## Task3: Top level
 
@@ -189,11 +189,11 @@ end architecture Behavioral;
 
 ### Image of the top layer - 4-bit bidirectional counter
 
-![05-4-bit-b-counter]()
+![05-4-bit-b-counter](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/05-counter/Images/05-task3a.jpg)
 
 ### Image of the top layer - 16-bit counter
 
-![05-16-bit-counter]()
+![05-16-bit-counter](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/05-counter/Images/05-task3b.jpg)
 
 
 
