@@ -53,18 +53,12 @@ begin
             elsif (en_i = '1') then       -- Test if counter is enabled
                 s_cnt_local <= s_cnt_local + 1;
 
-                -- TEST COUNTER DIRECTION HERE/ enable treba implementovat...
-                -- pozriet skripta..., ako je en_i = '0', tak cnt_o <= s_cnt_local co znamena ze by sa nemal menit a ostane tam iba s_cnt_local
-                -- iba tieto 3 dokoncit
-                -- pre test bench nic neimplementovat... asi
-
-               
-                
-            -- elsif (cnt_up_i = '0') then
-                -- s_cnt_local <= s_cnt_local - '1'; asi je to okay???
-                
-            -- elsif (cnt_up_i = '1') then
-                -- s_cnt_local <= s_cnt_local + '1;; toto palti pre enable... skus -> 1 - s_cnt_local
+                -- TEST COUNTER DIRECTION HERE
+            elsif (cnt_up_i = '0') then
+                s_cnt_local <= s_cnt_local - "1";                
+                                           
+            elsif (cnt_up_i = '1') then
+                s_cnt_local <= s_cnt_local + "1";
             -- inspiracia -> https://startingelectronics.org/software/VHDL-CPLD-course/tut19-up-down-counter/
 
             end if;

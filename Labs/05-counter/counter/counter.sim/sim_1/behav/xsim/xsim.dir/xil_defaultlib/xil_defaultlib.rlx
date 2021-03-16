@@ -3,4 +3,6 @@
 Nov 18 2020
 09:47:47
 D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sim_1/new/tb_clock_enable.vhd,1615379294,vhdl,,,,tb_clock_enable,,,,,,,,
+D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sim_1/new/tp_cnt_up_down.vhd,1615380228,vhdl,,,,tb_cnt_up_down,,,,,,,,
 D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/clock_enable.vhd,1615378203,vhdl,D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sim_1/new/tb_clock_enable.vhd,,,clock_enable,,,,,,,,
+D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd,1615905006,vhdl,D:/Documents/lukac/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sim_1/new/tp_cnt_up_down.vhd,,,cnt_up_down,,,,,,,,
