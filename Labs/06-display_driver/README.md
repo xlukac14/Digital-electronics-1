@@ -8,7 +8,7 @@ https://github.com/xlukac14/Digital-electronics-1
 
 ### Timing diagram figure for displaying value 3.142
 
-![de1_pc7_screenshot_a]()
+![de1_pc7_screenshot_a](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/06-display_driver/Images/de1_pc7a.PNG)
 
 ### Code for displaying value 3.142
 
@@ -192,7 +192,7 @@ end architecture testbench;
 
 ### Screenshot with simulated time waveforms
 
-![de1_pc7_screenshot_b]()
+![de1_pc7_screenshot_b](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/06-display_driver/Images/de1_pc7b.PNG)
 
 ### Listing of VHDL architecture of the top layer
 
@@ -254,7 +254,7 @@ end architecture Behavioral;
 
 ## Task3: Eight-digit driver
 
-![de1_pc7_screenshot_c]()
+![de1_pc7_screenshot_c](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/06-display_driver/Images/de1_pc7_c.jpg)
 
 
 
