@@ -198,28 +198,25 @@ https://github.com/xlukac14/Digital-electronics-1
         begin    
             if rising_edge(clk) then
                 if (rst = '1') then
-                    s_q       <= '0';
-                    s_q_bar   <= '1';
+                    q       <= '0';
+                    q_bar   <= '1';
                 else
                     if (j = '0' and k = '0') then
-                        s_q       <= s_q;
-                        s_q_bar   <= s_q_bar;
+                        q       <= q;
+                        q_bar   <= q_bar;
                     elsif (j = '0' and k = '1') then 
-                        s_q       <= '0';
-                        s_q_bar   <= '1';
+                        q       <= '0';
+                        q_bar   <= '1';
                     elsif (j = '1' and k = '0') then 
-                        s_q       <= '1';
-                        s_q_bar   <= '0';
+                        q       <= '1';
+                        q_bar   <= '0';
                     else 
-                        s_q       <= not s_q;
-                        s_q_bar   <= not s_q_bar;     
+                        q       <= not q;
+                        q_bar   <= not q_bar;     
                     end if;
                 end if;
             end if;
     end process p_jk_ff_rst;
-
-    q       <= s_q;
-    q_bar   <= s_q_bar;
 ```
 
 #### p_t_ff_rst
@@ -466,7 +463,7 @@ https://github.com/xlukac14/Digital-electronics-1
     
     p_reset_gen : process
     begin
-         s_rst <= '0';
+        s_rst <= '0';
         wait for 300 ns;
         s_rst <= '1';                 
         wait for 100 ns;
