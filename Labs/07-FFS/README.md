@@ -740,5 +740,5 @@ https://github.com/xlukac14/Digital-electronics-1
 
 ### Task4: Shift register 
 
-![screenshot_e](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/07-FFS/Images/de1_pc7_screenshot_e.PNG)
+![screenshot_e](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/07-FFS/Images/de1_pc7_screenshot_e.jpg)
 
