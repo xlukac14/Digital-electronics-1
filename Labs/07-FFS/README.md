@@ -152,7 +152,7 @@ https://github.com/xlukac14/Digital-electronics-1
 
 ### Screenshot with simulated time waveforms
 
-![screenshot_a]()
+![screenshot_a](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/07-FFS/Images/de1_pc7_screenshot_a.PNG)
 
 ## Task3: Flip-Flops
 
@@ -724,21 +724,21 @@ https://github.com/xlukac14/Digital-electronics-1
 
 #### D_ARST_FF
 
-![screenshot_b]()
+![screenshot_b](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/07-FFS/Images/de1_pc7_screenshot_b.PNG)
 
 #### D_RST_FF
 
-![screenshot_c]()
+![screenshot_c](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/07-FFS/Images/de1_pc7_screenshot_c.PNG)
 
 #### JK_RST_FF
 
-![screenshot_d]()
+![screenshot_d](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/07-FFS/Images/de1_pc7_screenshot_d.PNG)
 
 #### T_RST_FF
 
-![screenshot_e]()
+![screenshot_f](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/07-FFS/Images/de1_pc7_screenshot_f.PNG)
 
 ### Task4: Shift register 
 
-![screenshot_f]()
+![screenshot_e](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/07-FFS/Images/de1_pc7_screenshot_e.PNG)
 
