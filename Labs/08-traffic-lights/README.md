@@ -192,7 +192,7 @@ https://github.com/xlukac14/Digital-electronics-1
 
 ### State diagram
 
-![image2.jpg](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Images/image2.jpg)
+![image_b.jpg](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Images/image_b.jpg)
 
 ### VHDL code of sequential process p_smart_traffic_fsm
 
