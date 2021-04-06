@@ -1,4 +1,4 @@
-# Lab 05-counter
+# Lab 08-Traffic-Lights
 
 ### My GitHub repository
 
