@@ -16,7 +16,7 @@ https://github.com/xlukac14/Digital-electronics-1
 
 ### Figure with connection of RGB LEDs on Nexys A7 board
 
-![image1](https://github.com/xlukac14/Digital-electronics-1/tree/main/Labs/08-traffic-lights/Images/RGB.PNG)
+![image1](https://github.com/xlukac14/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Images/RGB.png)
 
 ### Table with color settings
 
