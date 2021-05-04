@@ -955,38 +955,40 @@ end Behavioral;
 
 ![](Images/top_parking_assistant_diagram_final.jpg)
 
+![](Images/tb_top_sim.jpg)
+
 ## Tables
 
 ### Table for input/output ports
 
 | **Port name** | **Direction** | **Type** | **Description** |
 | :-: | :-: | :-: | :-: | :-: |
-| `CLK100MHz` | input | `std_logic` | Main clock |
-| `SW` | input | `std_logic` | Enable switch |
-| `echo` | input | `std_logic` | Echo signal |
-| `ck_io` | output | `std_logic_vector(10-1 downto 0)` | LED bar signals |
-| `trigger` | output | `std_logic` | Trigger signal |
-| `Buzzer` | output | `std_logic` | Buzzer audio signal |
+| CLK100MHz | input | std_logic | Main clock |
+| SW | input | std_logic | Enable switch |
+| echo | input | std_logic | Echo signal |
+| ck_io | output | std_logic_vector(10-1 downto 0) | LED bar signals |
+| trigger | output | std_logic | Trigger signal |
+| Buzzer | output | std_logic | Buzzer audio signal |
 
 ### Table for ports & pins
 
 | **Port name** | **Pin** | **Description** |
 | :-: | :-: | :-: | :-: |
-| `CLK100MHz` | E3 | Main clock |
-| `SW` | A8 | Enable switch |
-| `echo` | P17 | Echo signal |
-| `trigger` | R17 | Trigger signal |
-| `Buzzer` | P17 | Buzzer audio signal |
-| `ck_io[0]` | V15 | LED Red |
-| `ck_io[1]` | U16 | LED Red |
-| `ck_io[2]` | P14 | LED Yellow |
-| `ck_io[3]` | T11 | LED Yellow |
-| `ck_io[4]` | R12 | LED Yellow |
-| `ck_io[5]` | T14 | LED Yellow |
-| `ck_io[6]` | T15 | LED Green |
-| `ck_io[7]` | T16 | LED Green |
-| `ck_io[8]` | N15 | LED Green |
-| `ck_io[9]` | M16 | LED Green |
+| CLK100MHz | E3 | Main clock |
+| SW | A8 | Enable switch |
+| echo | P17 | Echo signal |
+| trigger | R17 | Trigger signal |
+| Buzzer | P17 | Buzzer audio signal |
+| ck_io[0] | V15 | LED Red |
+| ck_io[1] | U16 | LED Red |
+| ck_io[2] | P14 | LED Yellow |
+| ck_io[3] | T11 | LED Yellow |
+| ck_io[4] | R12 | LED Yellow |
+| ck_io[5] | T14 | LED Yellow |
+| ck_io[6] | T15 | LED Green |
+| ck_io[7] | T16 | LED Green |
+| ck_io[8] | N15 | LED Green |
+| ck_io[9] | M16 | LED Green |
 
 ## Video
 
