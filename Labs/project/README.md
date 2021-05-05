@@ -994,6 +994,10 @@ end Behavioral;
 
 Link to Youtube video of our project: [Video](https://www.youtube.com/watch?v=5jJb18Ru17U)
 
+## Vivado Project
+
+Link to Project: Parking Assistant in Vivado: [Project](https://drive.google.com/file/d/1oI4GIM-Q9Cq4tVlKYB0C845jwtHCcQLA/view)
+
 ## References
 
    1. Arty A7 board description. In: digilentinc.com [online]. Available here: [Arty A7](https://reference.digilentinc.com/reference/programmable-logic/arty-a7/reference-manual) 
