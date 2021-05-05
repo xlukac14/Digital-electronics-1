@@ -962,20 +962,13 @@ end Behavioral;
 ### Table for input/output ports
 
    | **Port name** | **Direction** | **Type** | **Description** |
-   | :-: | :-: | :-: | :-: | :-: |
-   | CLK100MHz | input | std_logic | Main clock |
-   | SW | input | std_logic | Enable switch |
-   | echo | input | std_logic | Echo signal |
-   | ck_io | output | std_logic_vector(10-1 downto 0) | LED bar signals |
-   | trigger | output | std_logic | Trigger signal |
-   | Buzzer | output | std_logic | Buzzer audio signal |
-
-   | **Port name** | **Direction** | **Type** | **Description** |
    | :-: | :-: | :-- | :-- |
-   | `BTNU` | in | `std_logic` | Clock emulator |
-   | `BTNC` | in | `std_logic` | Synchronous reset |
-   | `SW` | in  | `std_logic_vector(1 - 1 downto 0)` | Shift register serial input |
-   | `LED` | out | `std_logic_vector(4 - 1 downto 0)` | Shift register parallel outputs |
+   | `CLK100MHz` | in | `std_logic` | Main clock |
+   | `SW` | input | `std_logic` | Enable switch |
+   | `echo` | input  | `std_logic` | Echo signal |
+   | `ck_io` | output | `std_logic_vector(10 - 1 downto 0)` | LED bar signals |
+   | `trigger` | output | `std_logic` | Trigger signal |
+   | `Buzzer` | output | `std_logic` | Buzzer audio signal |
 
 ### Table for ports & pins
 
