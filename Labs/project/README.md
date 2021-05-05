@@ -970,6 +970,13 @@ end Behavioral;
    | trigger | output | std_logic | Trigger signal |
    | Buzzer | output | std_logic | Buzzer audio signal |
 
+   | **Port name** | **Direction** | **Type** | **Description** |
+   | :-: | :-: | :-- | :-- |
+   | `BTNU` | in | `std_logic` | Clock emulator |
+   | `BTNC` | in | `std_logic` | Synchronous reset |
+   | `SW` | in  | `std_logic_vector(1 - 1 downto 0)` | Shift register serial input |
+   | `LED` | out | `std_logic_vector(4 - 1 downto 0)` | Shift register parallel outputs |
+
 ### Table for ports & pins
 
    | **Port name** | **Pin** | **Description** |
