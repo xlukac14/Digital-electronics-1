@@ -973,7 +973,7 @@ end Behavioral;
 ### Table for ports & pins
 
    | **Port name** | **Pin** | **Description** |
-   | :-: | :-: | :-: | :-: |
+   | :-: | :-: | :-: |
    | CLK100MHz | E3 | Main clock |
    | SW | A8 | Enable switch |
    | echo | P17 | Echo signal |
